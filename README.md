@@ -1,6 +1,6 @@
 # Payment Trajectories and Causal Delinquency: Predicting Credit Card Default in Taiwan
 
-![Notebook CI](https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>/actions/workflows/run-notebook.yml/badge.svg)
+![Notebook CI](https://github.com/shantanu-777/dai-mission-group-v/actions/workflows/run-notebook.yml/badge.svg)
 
 > **Before submitting:** replace `<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>` in the badge URL above
 > with your actual GitHub owner and repository name.
@@ -21,7 +21,7 @@
 
 ## Research Question
 
-*One sentence: what causal or predictive question are you answering, and with what data?*
+Do earlier months of payment delinquency causally increase the probability of credit default beyond what the most recent payment behaviour already explains and can we identify distinct **repayment trajectory types** that serve as meaningful risk archetypes?
 
 ---
 
@@ -37,13 +37,13 @@
 
 ## Data Sources
 
-| Dataset | Source / URL | Access method |
-|---------|-------------|---------------|
-| | | local file / API / sklearn built-in / runtime download / Sciebo link |
+**Dataset** :Source(s):
+UCI Machine Learning Repository — Default of Credit Card Clients (Yeh, 2009)
+Licence: CC BY 4.0. Original paper: Yeh & Lien, Expert Systems with Applications, 2009.
 
-> **Data size rule:** files < 100 MB may be committed directly. Files ≥ 100 MB must either
-> be downloaded programmatically in the notebook (API/URL) or linked via a Sciebo share
-> placed in this README — do NOT push large files to GitHub.
+Unit of observation: One credit card client-month record (30,000 rows, 23 features + 1 target)
+
+**URL:** [Default of Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
 ---
 
@@ -112,7 +112,7 @@ jupyter lab notebook.ipynb
 
 | Item | Status |
 |------|--------|
-| Repo named `dai-mission-group-X` (replace X with your group letter) | [ ] |
+| Repo named `dai-mission-group-V` (replace X with your group letter) | [ ] |
 | README updated (title, team, badge URL, research question, data sources) | [ ] |
 | Work Plan filled in (`notebook.ipynb` — team member → section mapping) | [ ] |
 | All rubric sections complete (§1–§5) | [ ] |
