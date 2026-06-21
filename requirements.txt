@@ -9,6 +9,12 @@ seaborn>=0.13.0,<0.14
 # Excel (.xls) reading for the UCI credit-card dataset
 xlrd>=2.0.1
 
+# Imbalance handling (SMOTE) for the supervised block
+imbalanced-learn>=0.12.0
+
+# Model explainability (feature importance) for the supervised block
+shap>=0.44
+
 # Causal inference
 dowhy>=0.11.1
 
