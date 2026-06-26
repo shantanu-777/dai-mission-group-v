@@ -58,8 +58,8 @@ Push to `main`. The CI workflow executes `notebook.ipynb` automatically.
 
 ```bash
 # Clone your repo (not this template)
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>.git
-cd <YOUR_REPO_NAME>
+git clone https://github.com/shantanu-777/dai-mission-group-v.git
+cd dai-mission-group-v
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
