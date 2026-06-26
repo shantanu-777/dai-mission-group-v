@@ -2,9 +2,6 @@
 
 ![Notebook CI](https://github.com/shantanu-777/dai-mission-group-v/actions/workflows/run-notebook.yml/badge.svg)
 
-> **Before submitting:** replace `<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>` in the badge URL above
-> with your actual GitHub owner and repository name.
-
 ---
 
 ## Team
